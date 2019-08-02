@@ -1,0 +1,3 @@
+[options]
+experimental.const_params=true
+module.use_strict=true

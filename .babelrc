@@ -1,0 +1,15 @@
+{
+  "presets": [
+    ["env", {
+      "modules": "commonjs",
+      "targets": {
+        "chrome": 56
+      }
+      }],
+    "flow",
+    "babili"
+  ],
+  "plugins": [
+    "transform-flow-strip-types"
+  ]
+}

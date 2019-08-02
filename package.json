@@ -1,0 +1,38 @@
+{
+  "name": "Lucky-Star",
+  "version": "1.0.0",
+  "description": "Lucky Star opening as a wallpaper.",
+  "scripts": {
+    "build": ". scripts/build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:eadwu/Lucky-Star.git"
+  },
+  "keywords": [
+    "molecule-package"
+  ],
+  "author": "eadwu",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-babili": "0.0.12",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-flow": "^6.23.0",
+    "eslint-plugin-flowtype": "^2.33.0",
+    "pug": "^2.0.0-rc.1",
+    "pug-cli": "^1.0.0-alpha6",
+    "standard": "^10.0.2"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "plugins": [
+      "flowtype"
+    ],
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  }
+}
